@@ -220,6 +220,10 @@ li {
     width: 100%;
 }
 
+.main4-wrapper {
+    width: 100%;
+}
+
 .main4-container {
     width: 800px;
     margin: 0 auto;
@@ -237,10 +241,39 @@ li {
     text-align: center;
 }
 
+.mail {
+    width: 130px;
+    margin: 0 auto;
+    text-align: left;
+}
+.tell {
+    width: 130px;
+    margin: 0 auto;
+    text-align: left;
+}
+
 .sns {
     width: 400px;
     text-align: center;
 }
+
+.sns-content {
+    width: 200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
 .sns i {
     margin-right: 20px;
+    font-size: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: #EC715F;
+}
+footer p {
+    line-height: 60px;
 }
