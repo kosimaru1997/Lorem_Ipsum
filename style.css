@@ -57,9 +57,18 @@ li {
     padding-top: 10px;
 }
 
-.main-wrapper {
+#first {
     width: 100%;
     background-color: #eceff1;
+}
+#third {
+    width: 100%;
+    background-color: #eceff1;
+}
+
+.main-wrapper {
+    width: 1024px;
+    margin: 0 auto;
 }
 
 .main-container {
@@ -221,7 +230,8 @@ li {
 }
 
 .main4-wrapper {
-    width: 100%;
+    width: 1024px;
+    margin: 0 auto;
 }
 
 .main4-container {
@@ -276,4 +286,69 @@ footer {
 }
 footer p {
     line-height: 60px;
+}
+
+/* ハンバーガーメニュー */
+.smafo {
+    display: none
+}
+#input {
+    display: none;
+}
+
+.menu-box {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    border: 3px solid white;
+}
+
+.menu-line {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 7px;
+}
+.menu-line:nth-child(2) {
+    top: 20px;
+}
+.menu-line:last-child {
+    top: 30px;
+}
+
+.menu-content {
+    transform: translateY(-1000px);
+}
+
+#input:checked ~ .menu-content {
+    transform:translateX(-40px) translateY(0);
+}
+
+/* スマホ用画面 */
+@media( max-width: 767px ) {
+
+    .pc {
+        display: none;
+    }
+
+    .container {
+        width: 90%;
+        height: 70px;
+    }
+
+    .smafo {
+        display: inline-block;
+        margin-left: auto;
+        width: 30px;
+    }
+
+
+
+
+
+
+
 }
